@@ -6,7 +6,7 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
-/* Custom Scroll Bar CSS */
+/* css do botão pra cima */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -21,7 +21,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #4070f4;
 }
-/* navbar styling */
+/* css do header */
 nav{
   position: fixed;
   width: 100%;
@@ -87,7 +87,7 @@ nav.sticky .menu a:hover{
 nav.sticky .media-icons a{
   color: #FFF;
 }
-/* Side Navigation Menu Button CSS */
+/* menu responsivo */
 nav .menu-btn,
 .navbar .menu .cancel-btn{
   position: absolute;
@@ -108,7 +108,7 @@ nav.sticky .menu-btn{
 .navbar .menu .menu-btn{
   color: #fff;
 }
-/* home section styling */
+/* CSS do inicio */
 .home{
   height: 100vh;
   width: 100%;
@@ -167,9 +167,8 @@ nav.sticky .menu-btn{
   color: #4070f4;
   transition: 1s;
 }
-/* About Section Styling */
-/* Those Elements Where We Have Apply Same CSS,
- I'm Selecting Directly 'Section Tag' and 'Class'  */
+/* CSS do Sobre */
+
 section{
   padding-top: 40px;
 }
@@ -255,7 +254,7 @@ section .button button:hover{
  
 }
  
-/* My Services CSS */
+/* CSS dos Serviços */
 .services .boxes{
   display: flex;
   flex-wrap: wrap;
@@ -303,20 +302,8 @@ section .button button:hover{
 .services .boxes .box:hover p{
   color: #fff;
 }
-/* Contact Me CSS */
-.contact{
-  background: #F0F8FF;
-}
-.contact .content{
-  margin: 0 auto;
-  padding: 30px 0;
-}
-.contact .text{
-  width: 80%;
-  text-align: center;
-  margin: auto;
-}
-/* Footer CSS */
+
+/*  CSS do Footer  */
 footer{
   background: #4070f4;
   padding: 15px 0;
